@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_media_videos",
+  "info": {
+    "displayName": "video",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "posts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::post.post"
+    }
+  }
+}

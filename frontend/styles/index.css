@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+TC");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-[#fffdf1] font-NotoSans text-[#2e2d22]
+    }
+
+    footer {
+        @apply bg-[#e8e6da] border-t border-neutral-200
+    }
+
+    /* navbar logo */
+    h1 {
+        @apply text-5xl md:text-7xl font-bold tracking-tighter leading-tight
+    }
+
+    /* section title */
+    h2 {
+        @apply mb-12 text-5xl md:text-[4rem] font-bold tracking-tighter leading-tight
+    }
+
+    /* contact us */
+    h3 {
+        @apply text-4xl md:text-6xl font-bold tracking-tighter leading-tight
+    }
+
+    /* post preview title */
+    h4 {
+        @apply mb-3 text-3xl leading-snug
+    }
+
+    /* navbar */
+    ul {
+        @apply border-y-black border-y-[1px] py-1
+    }
+
+    /* navbar */
+    li {
+        @apply m-2 text-xl tracking-tighter leading-tight
+    }
+
+    section {
+        @apply py-12
+    }
+}
