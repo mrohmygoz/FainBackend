@@ -7,7 +7,7 @@
 
 @layer base {
     body {
-        @apply bg-[#fffdf1] font-NotoSans text-[#2e2d22]
+        @apply bg-[#f4f1de] font-NotoSans text-[#221b19]
     }
 
     footer {
@@ -19,7 +19,7 @@
         @apply text-5xl md:text-7xl font-bold tracking-tighter leading-tight
     }
 
-    /* section title */
+    /* section title & post title */
     h2 {
         @apply mb-12 text-5xl md:text-[4rem] font-bold tracking-tighter leading-tight
     }
@@ -41,7 +41,7 @@
 
     /* navbar */
     li {
-        @apply m-2 text-xl tracking-tighter leading-tight
+        @apply m-3 text-2xl tracking-tighter leading-tight
     }
 
     section {

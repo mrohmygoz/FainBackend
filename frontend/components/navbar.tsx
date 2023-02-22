@@ -13,7 +13,7 @@ export default function Navbar() {
                         <Image
                             src={LogoImg}
                             alt='logo'
-                            width={350}
+                            width={380}
                         />
                     </Link>
                     
